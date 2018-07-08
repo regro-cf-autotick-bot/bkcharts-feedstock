@@ -14,14 +14,15 @@ Summary: High level chart types built on top of Bokeh
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/bkcharts-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/bkcharts-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/bkcharts-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/bkcharts-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/bkcharts-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/bkcharts-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/bkcharts-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/bkcharts-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/bkcharts/badges/version.svg)](https://anaconda.org/conda-forge/bkcharts)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/bkcharts/badges/downloads.svg)](https://anaconda.org/conda-forge/bkcharts)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-bkcharts-green.svg)](https://anaconda.org/conda-forge/bkcharts) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/bkcharts.svg)](https://anaconda.org/conda-forge/bkcharts) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/bkcharts.svg)](https://anaconda.org/conda-forge/bkcharts) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/bkcharts.svg)](https://anaconda.org/conda-forge/bkcharts) |
 
 Installing bkcharts
 ===================
@@ -66,6 +67,7 @@ To manage the continuous integration and simplify feedstock maintenance
 Using the ``conda-forge.yml`` within this repository, it is possible to re-render all of
 this feedstock's supporting files (e.g. the CI configuration files) with ``conda smithy rerender``.
 
+For more information please check the [conda-forge documentation](https://conda-forge.org/docs/).
 
 Terminology
 ===========
